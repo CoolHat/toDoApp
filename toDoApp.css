@@ -1,0 +1,97 @@
+.toDoApp{
+    position: relative;
+    left:50%;
+    border:solid 2px #333;
+    border-radius: 8px;
+    transform: translate(-50%);
+    width: 300px;
+    height: 650px;
+    top:50px;
+    padding: 8px;
+}
+
+
+.toDoAppAdd{
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.toDoAppInput{
+    width: 200px;
+}
+
+
+.toDoAppButton button{
+    background-color: white;
+    padding: 7px;
+    border-radius: 4px;
+    box-shadow: none;
+    border-width: 1px;
+    height: 100%;
+
+}
+
+
+.toDoAppInput{
+    padding: 8px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+.toDoAppInput input{
+    width: 100%;
+    height:31px;
+    border-radius: 4px;
+    border-style: none;
+    border: solid 1px #ccc;
+   
+}
+
+
+.toDoAppList{
+    margin-top: 20px;
+}
+
+
+.listToDO{
+    
+    background: #c1c1c1;
+    color:white;
+    display: flex;
+    border-bottom: solid 1px white;
+}
+
+
+.flex1{
+    flex:1;
+   
+    padding:8px 16px;
+    cursor: pointer;
+}
+
+
+.flex1:hover{
+    background: #a1a1a1;
+}
+
+
+.flex2{
+    font-size: 1.7em;
+    font-weight:bold;
+    padding: 0px 8px;
+    cursor: pointer;
+}
+
+
+.flex2:hover{
+    background-color: red;
+}
+
+
+.stricked{
+    color:green !important;
+    text-decoration: line-through;;
+    font-weight: bold;
+}
